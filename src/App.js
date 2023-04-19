@@ -12,7 +12,6 @@ function App() {
       {titleArray.map((eachTitleArray) => (
         <ControlCard title={eachTitleArray} />
       ))}
-      <logo />
 
       <Topbar subtitle="สวัสดีเราคือ Subtitle" />
       <ControlCard titleArray />
